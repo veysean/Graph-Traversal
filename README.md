@@ -59,8 +59,7 @@ int main() {
     g.print();
 
     // Perform traversals
-    g.DFS_Recursive('0');
-    g.DFS_Iterative('0');
+    g.DFS('0');
     g.BFS('0');
 
     return 0;
@@ -75,6 +74,6 @@ For the above example, the program will output:
 4 -> 0 3
 2 -> 1
 3 -> 1 4
-DFS (Recursive): 0 1 2 3 4
+DFS: 0 1 2 3 4
 BFS: 0 1 4 2 3
 
