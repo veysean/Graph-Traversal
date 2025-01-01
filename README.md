@@ -2,7 +2,7 @@
 
 ## Overview
 This project implements a graph traversal library in C++ that includes:
-- Depth-First Search (DFS): Both recursive approaches.
+- Depth-First Search (DFS): recursive approaches.
 - Breadth-First Search (BFS): Iterative approach.
 
 The graph is represented using an adjacency list for efficient traversal and edge representation.
@@ -11,7 +11,7 @@ The graph is represented using an adjacency list for efficient traversal and edg
 - Add undirected or directed edges to the graph.
 - Print the graph structure in an adjacency list format.
 - Perform graph traversals:
-  - DFS (Recursive)
+  - DFS
   - BFS
 
 The implementation is modular, with BFS and DFS functionality separated into different files for clarity and reusability.
